@@ -8,12 +8,25 @@ a {
     text-decoration: none;
 }
 
+h1{
+    color:#5d8ab1;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    color:#5d8ab1;
+}
+
+.avantgarde {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 /*grid*/
 
 .grid {
     display: grid;
-    grid-template-columns: 2 1fr;
-    grid-template-rows: 20% 10% 20% 20%;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 10% 10% 20% 20%;
     grid-template-areas:'photo nom' 
                         'informatique formations' 
                         'adresse experiences' 
@@ -24,42 +37,49 @@ a {
 
 .one{
     grid-area: nom;
-  
+    font-family: Helvetica;
+    padding-left: 5vw;
 }
 
 .two{
-    color: white;
     grid-area: adresse;
+    font-family: Helvetica;
+    color: white;
     background-color:#5d8ab1;
     padding: 2vw 2vw 2vw 2vw;
 }
 
 .three{
-    color: white;
     grid-area: photo;
+    font-family: Helvetica;
+    color: white;
     background-color:#5d8ab1;
     padding: 2vw 2vw 2vw 2vw;
 }
 
 .threetwo {
-    color: white;
     grid-area: informatique;
+    font-family: Helvetica;
+    color: white;
     background-color:#5d8ab1;
     padding: 2vw 2vw 2vw 2vw;
-  
 }
-
 
 .four{
     grid-area: formations;
-   
+    font-family: Helvetica;
+    margin-top: -130px;
+    padding-left: 5vw;
 }
 
 .five {
-    margin-top: -150px;
     grid-area: experiences;
-    
+    font-family: Helvetica;
+    margin-top: -420px;
+    padding-left: 5vw;
 }
+
+
 
 
 
