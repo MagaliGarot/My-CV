@@ -1,0 +1,67 @@
+/*General*/
+body{
+    margin-top: 0vw;
+    margin-left: 0vw;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: 2 1fr;
+    grid-template-rows: 20% 10% 20% 20%;
+    grid-template-areas:'photo nom' 
+                        'informatique formations' 
+                        'adresse experiences' 
+                        'adresse vides' ; 
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.one{
+    grid-area: nom;
+  
+}
+
+.two{
+    color: white;
+    grid-area: adresse;
+    background-color:#5d8ab1;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+.three{
+    color: white;
+    grid-area: photo;
+    background-color:#5d8ab1;
+    padding: 2vw 2vw 2vw 2vw;
+}
+
+.threetwo {
+    color: white;
+    grid-area: informatique;
+    background-color:#5d8ab1;
+    padding: 2vw 2vw 2vw 2vw;
+  
+}
+
+
+.four{
+    grid-area: formations;
+   
+}
+
+.five {
+    margin-top: -150px;
+    grid-area: experiences;
+    
+}
+
+
+
+
+
