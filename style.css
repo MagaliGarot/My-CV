@@ -9,6 +9,8 @@ a {
 }
 
 h1{
+    font-size: 4vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color:#5d8ab1;
 }
 
@@ -21,6 +23,11 @@ h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Images*/
+.github {
+    margin-left: 2vw;
+}
+
 /*grid*/
 
 .grid {
@@ -28,9 +35,9 @@ h2{
     grid-template-columns: 1fr 6fr;
     grid-template-rows: 0,5fr 1fr 1fr;
     grid-template-areas:'photo nom' 
-                        'informatique formations' 
-                        'adresse experiences' 
-                        'adresse vides' ; 
+                        'adresse formations' 
+                        'informatique experiences' 
+                        ; 
     grid-column-gap: 20px;
     grid-row-gap: 0px;
 }
@@ -76,7 +83,6 @@ h2{
     font-family: Helvetica;
     padding-left: 5vw;
 }
-
 
 
 
