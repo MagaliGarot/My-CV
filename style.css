@@ -11,7 +11,7 @@ a {
 h1{
     font-size: 4vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color:#5d8ab1;
+    color: #F0A66A;
 }
 
 h2{
@@ -42,12 +42,14 @@ h2{
     grid-row-gap: 0px;
 }
 
+        /*name and title*/
 .one{
     grid-area: nom;
     font-family: Helvetica;
     padding-left: 5vw;
 }
 
+        /*information*/
 .two{
     grid-area: adresse;
     font-family: Helvetica;
@@ -56,6 +58,7 @@ h2{
     padding: 2vw 2vw 2vw 2vw;
 }
 
+        /*picture profil*/
 .three{
     grid-area: photo;
     font-family: Helvetica;
@@ -63,6 +66,8 @@ h2{
     background-color:#5d8ab1;
     padding: 2vw 2vw 2vw 2vw;
 }
+
+        /*informatique*/
 
 .threetwo {
     grid-area: informatique;
@@ -72,20 +77,27 @@ h2{
     padding: 2vw 2vw 2vw 2vw;
 }
 
+        /*formations*/
 .four{
     grid-area: formations;
     font-family: Helvetica;
     padding-left: 5vw;
 }
 
+        /*xp*/
 .five {
     grid-area: experiences;
     font-family: Helvetica;
     padding-left: 5vw;
 }
 
+/*hover*/
 
+img:hover{
+    width:55px;
+    height:55px;
+}
 
-
-
-
+.orange {
+    color: #F0A66A;
+}
